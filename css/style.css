@@ -1,0 +1,164 @@
+body{
+	font-style: 14px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.login-container {
+  background-color: #eee;
+  margin: 40px auto 0;
+  padding: 30px 20px;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+.login-copy{
+	max-width: 500px;
+	margin: 25px auto 0;
+	text-align: center;
+}
+
+.hints{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.hints i{
+	font-size: 16px;
+	color: red;
+}
+
+.notification{
+	padding: 10px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+/*master-area*/
+i.fa {
+  margin-right: 5px;
+}
+
+.master-area {
+  border: 1px solid #efefef;
+  margin: 15px auto 0;
+  max-width: 1100px;
+  padding: 10px 0;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=146, Color=#333333)";/*IE 8*/
+  -moz-box-shadow: 2px 3px 5px #333333;/*FF 3.5+*/
+  -webkit-box-shadow: 2px 3px 5px #333333;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+  box-shadow: 2px 3px 5px #333333;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=146, Color=#333333); /*IE 5.5-7*/
+}
+
+.header-right, .footer-right{
+	text-align: right;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.logo-text {
+  font-family: "Dancing Script",cursive;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.logo-text span {
+  color: red;
+}
+
+.top-menu {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 25px;
+  padding: 10px 0;
+}
+
+.content-body {
+  padding: 0 0 20px;
+  min-height: 150px;
+}
+
+.not-found-exception{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.not-found-exception .not-found-message{
+	font-weight: bold;
+	margin-bottom: 20px;
+  color: #c9302c;
+}
+
+.page-title{
+	font-size: 18px;
+	margin: 0 0 25px;
+}
+
+.required-mark{
+	color: red;
+}
+
+.record-field strong {
+  display: inline-block;
+  min-width: 135px;
+  margin-right: 10px;
+}
+
+.record-field span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.record-field > div {
+  margin-bottom: 10px;
+  min-height: 30px;
+  padding: 10px 5px;
+  border-bottom: 1px solid #eee;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.record-field > div:hover {
+  background-color: #31B0D5; 
+  cursor: pointer;
+}
+
+.copyright {
+  border-top: 1px solid #eee;
+  margin-top: 25px;
+  padding: 10px 0;
+}
+
+.single-entry-view{
+  padding: 15px 20px;
+}
+
+/*Export Page*/
+
+.export-page{
+  padding: 15px;
+}
+
+.export-meta{
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 767px) {
+   .header, footer{
+   	text-align: center;
+   }
+
+   .header-right, .footer-right{
+		text-align: center;
+	}
+}
